@@ -30,7 +30,7 @@ The fine-tuned Qwen model receives the database schema and a clinical question, 
 
 ### Voice-Based Clinical Queries
 
-The Streamlit app records audio questions with `st-audiorec`, sends the audio to Gemini for transcription, and passes the transcription through the same text-to-SQL pipeline.
+The Streamlit app records audio questions with `st-audiorec`, sends the audio to Gemini for transcription, and passes the transcription, through the same text-to-SQL pipeline.
 
 ### SQL Execution on EHR Data
 
